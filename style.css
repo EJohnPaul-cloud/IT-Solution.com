@@ -971,3 +971,27 @@ section {
 .read-more:hover {
     transform: translateX(5px);
 }
+
+
+/* ======================= Page Hero Backgrounds ======================= */
+.about-hero {
+    background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), 
+                url('https://via.placeholder.com/1920x800/29335C/FFFFFF?text=About+Hero+Image') no-repeat center center/cover;
+}
+
+.services-hero {
+    background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), 
+                url('https://via.placeholder.com/1920x800/18A4E1/FFFFFF?text=Services+Hero+Image') no-repeat center center/cover;
+}
+
+.case-study-hero {
+    background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), 
+                url('https://via.placeholder.com/1920x800/40C1A7/FFFFFF?text=Case+Study+Hero+Image') no-repeat center center/cover;
+}
+
+/* You can create more specific ones if you want, e.g.
+.ecommerce-hero {
+    background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), 
+                url('images/ecommerce-bg.jpg') no-repeat center center/cover;
+}
+*/
