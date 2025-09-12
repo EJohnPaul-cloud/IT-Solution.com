@@ -189,6 +189,10 @@ section {
     cursor: pointer;
 }
 
+.nav-actions .search-icon {
+    display: none;
+}
+
 /* ======================= Hero Section ======================= */
 .hero-section {
     position: relative;
@@ -1256,4 +1260,5 @@ section {
     color: var(--text-light);
     border-color: var(--primary-color);
 }
+
 
