@@ -995,3 +995,102 @@ section {
                 url('images/ecommerce-bg.jpg') no-repeat center center/cover;
 }
 */
+
+
+/* ======================= BLOG Page CSS ======================= */
+.blog-hero {
+    background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), 
+                url('https://via.placeholder.com/1920x800/4F6272/FFFFFF?text=Blog+Hero+Image') no-repeat center center/cover;
+}
+
+.blog-page-grid {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 60px;
+    padding: 80px 0;
+}
+
+.blog-sidebar {
+    background-color: var(--bg-light);
+    padding: 30px;
+    border-radius: 10px;
+}
+
+.sidebar-widget {
+    margin-bottom: 40px;
+}
+
+.sidebar-widget h4 {
+    font-size: 1.5em;
+    color: var(--secondary-color);
+    margin-bottom: 20px;
+    border-bottom: 2px solid var(--primary-color);
+    padding-bottom: 10px;
+}
+
+.sidebar-widget ul {
+    list-style: none;
+    padding: 0;
+}
+
+.sidebar-widget li {
+    margin-bottom: 10px;
+}
+
+.sidebar-widget a {
+    color: var(--text-dark);
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.sidebar-widget a:hover {
+    color: var(--primary-color);
+}
+
+/* Single Post Specific CSS */
+.blog-post-hero {
+    background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), 
+                url('https://via.placeholder.com/1920x800/29335C/FFFFFF?text=Blog+Post+Hero+Image') no-repeat center center/cover;
+}
+
+.single-post-content {
+    padding: 80px 0;
+    line-height: 1.8;
+}
+
+.post-main-image {
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.post-main-image img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.post-meta {
+    font-size: 1.1em;
+    color: var(--text-light);
+    margin-top: 15px;
+}
+
+.single-post-content h3 {
+    font-size: 2em;
+    color: var(--secondary-color);
+    margin-top: 40px;
+    margin-bottom: 15px;
+}
+
+.single-post-content p {
+    color: var(--text-dark);
+    margin-bottom: 20px;
+}
+
+/* Media query for responsiveness */
+@media (max-width: 768px) {
+    .blog-page-grid {
+        grid-template-columns: 1fr;
+        gap: 30px;
+    }
+}
