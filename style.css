@@ -194,7 +194,7 @@ section {
     position: relative;
     height: 700px;
     /* This line applies the dark overlay: */ 
-    background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('https://i.ibb.co/VpqBgy3Z/IT-Solutions-for-your-business.jpg') no-repeat center center/cover;
+    background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('IT Solution3.png') no-repeat center center/cover;
     background-size: cover; /* Ensure the image covers the area */
     background-position: center; /* Center the background image */
     display: flex;
@@ -1000,7 +1000,7 @@ section {
 /* ======================= BLOG Page CSS ======================= */
 .blog-hero {
     background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), 
-                url('https://via.placeholder.com/1920x800/4F6272/FFFFFF?text=Blog+Hero+Image') no-repeat center center/cover;
+                url('https://i.ibb.co/gF6yhF7G/Customer-loyalty.jpg') no-repeat center center/cover;
 }
 
 .blog-page-grid {
