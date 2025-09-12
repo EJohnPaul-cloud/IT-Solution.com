@@ -972,21 +972,59 @@ section {
     transform: translateX(5px);
 }
 
+/* ======================= HERO SECTIONS ======================= */
+.page-hero-section {
+    width: 100%;
+    min-height: 400px;
+    padding: 80px 0;
+    text-align: center;
+    color: var(--text-light);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-size: cover;
+    background-position: center;
+}
 
-/* ======================= Page Hero Backgrounds ======================= */
+.page-hero-content h1 {
+    font-size: 3em;
+    margin-bottom: 10px;
+}
+
+.page-hero-content .hero-subheading {
+    font-size: 1.2em;
+    font-weight: 300;
+}
+
+/* Specific Hero Image Styles for Each Page */
 .about-hero {
-    background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), 
-                url('https://i.ibb.co/b5hzXmRj/IT-consultant-Lady.jpg') no-repeat center center/cover;
+    background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), 
+                      url('https://i.ibb.co/b5hzXmRj/IT-consultant-Lady.jpg');
 }
 
 .services-hero {
-    background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), 
-                url('https://i.ibb.co/VphcLZ7D/Black-IT-manager.jpg') no-repeat center center/cover;
+    background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), 
+                      url('https://i.ibb.co/VphcLZ7D/Black-IT-manager.jpg');
 }
 
 .case-study-hero {
-    background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), 
-                url('https://via.placeholder.com/1920x800/40C1A7/FFFFFF?text=Case+Study+Hero+Image') no-repeat center center/cover;
+    background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), 
+                      url('https://via.placeholder.com/1920x800/40C1A7/FFFFFF?text=Case+Study+Hero+Image');
+}
+
+.blog-hero {
+    background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), 
+                      url('https://via.placeholder.com/1920x800/4F6272/FFFFFF?text=Blog+Hero+Image');
+}
+
+.blog-post-hero {
+    background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), 
+                      url('https://via.placeholder.com/1920x800/29335C/FFFFFF?text=Blog+Post+Hero+Image');
+}
+
+.pricing-hero {
+    background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), 
+                      url('https://via.placeholder.com/1920x800/40C1A7/FFFFFF?text=Pricing+Hero+Image');
 }
 
 /* You can create more specific ones if you want, e.g.
