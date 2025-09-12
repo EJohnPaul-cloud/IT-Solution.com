@@ -634,34 +634,40 @@ section {
 .main-footer {
     background-color: var(--secondary-color);
     color: var(--text-light);
-    padding-top: 60px;
+    padding: 80px 0 20px;
 }
 
 .footer-content {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-    gap: 40px;
-    margin-bottom: 40px;
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
 }
 
-.footer-content h3 {
+.footer-brand,
+.footer-links,
+.footer-contact,
+.footer-social {
+    flex: 1;
+}
+
+.footer-brand h3 {
+    font-size: 2em;
+    margin-bottom: 10px;
     color: var(--primary-color);
-    margin-bottom: 15px;
 }
 
-.footer-content p {
-    font-size: 0.95em;
-    color: #ccc;
+.footer-brand p {
+    font-size: 0.9em;
     line-height: 1.6;
+    color: var(--text-light);
 }
 
 .footer-links h4,
 .footer-contact h4,
 .footer-social h4 {
-    font-size: 1.25em;
-    font-weight: bold;
+    font-size: 1.5em;
     margin-bottom: 20px;
-    color: var(--text-light);
+    color: var(--primary-color);
 }
 
 .footer-links ul {
@@ -669,13 +675,12 @@ section {
     padding: 0;
 }
 
-.footer-links ul li {
-    margin-bottom: 12px;
-}
-
-.footer-links a {
-    color: #ccc;
+.footer-links a,
+.footer-contact p {
+    color: var(--text-light);
     text-decoration: none;
+    font-size: 0.9em;
+    line-height: 2;
     transition: color 0.3s ease;
 }
 
@@ -683,21 +688,15 @@ section {
     color: var(--primary-color);
 }
 
-.footer-contact p {
-    margin-bottom: 10px;
-    display: flex;
-    align-items: center;
-    gap: 10px;
-}
-
-.footer-contact i {
+.footer-contact p i {
+    margin-right: 10px;
     color: var(--primary-color);
 }
 
 .social-icons a {
     color: var(--text-light);
+    margin-right: 15px;
     font-size: 1.5em;
-    margin-right: 20px;
     transition: color 0.3s ease;
 }
 
@@ -706,15 +705,23 @@ section {
 }
 
 .footer-bottom {
-    background-color: #212529;
     text-align: center;
-    padding: 20px 0;
-    border-top: 1px solid #333;
+    padding-top: 20px;
+    margin-top: 40px;
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
 }
 
 .footer-bottom p {
-    font-size: 0.85em;
-    color: #999;
+    font-size: 0.9em;
+    color: rgba(255, 255, 255, 0.6);
+}
+
+/* Responsive styles for footer */
+@media (max-width: 768px) {
+    .footer-content {
+        flex-direction: column;
+        text-align: center;
+    }
 }
 
 /* ======================= Projects Section ======================= */
@@ -1249,3 +1256,4 @@ section {
     color: var(--text-light);
     border-color: var(--primary-color);
 }
+
