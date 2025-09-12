@@ -226,7 +226,7 @@ section {
     margin-left: 15px;
 }
 
-/* ======================= Services Section ======================= */
+/* ======================= SERVICES Page Specific Styles ======================= */
 .services-hero-page {
     background: var(--bg-light);
 }
@@ -274,6 +274,99 @@ section {
     flex-direction: row-reverse;
 }
 
+/* ======================= ABOUT Page Specific Styles ======================= */
+.about-hero-page {
+    background: var(--bg-light);
+}
+
+.about-detail-section {
+    padding: 80px 0 40px;
+}
+
+.about-grid {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+
+.about-text-content {
+    flex: 1;
+}
+
+.about-image-content {
+    flex: 1;
+    text-align: center;
+}
+
+.about-image-content img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.1);
+}
+
+.about-text-content .main-heading {
+    margin-bottom: 20px;
+}
+
+.mission-vision-section {
+    padding: 40px 0 80px;
+}
+
+.mission-vision-grid {
+    display: flex;
+    gap: 30px;
+}
+
+.mission-card, .vision-card {
+    flex: 1;
+    text-align: center;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+}
+
+.mission-card {
+    background-color: var(--primary-color-light);
+}
+
+.vision-card {
+    background-color: var(--secondary-color-light);
+}
+
+.icon-circle {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 60px;
+    height: 60px;
+    background-color: var(--text-light);
+    border-radius: 50%;
+    margin-bottom: 20px;
+    font-size: 1.5em;
+    color: var(--primary-color);
+}
+
+.vision-card .icon-circle {
+    color: var(--secondary-color);
+}
+
+.mission-card h4, .vision-card h4 {
+    font-size: 1.5em;
+    color: var(--secondary-color);
+    margin-bottom: 15px;
+}
+
+.mission-card p, .vision-card p {
+    color: #555;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    .service-item, .service-item.row-reverse, .about-grid, .mission-vision-grid {
+        flex-direction: column;
+    }
+}
 
 /* ======================= Why Choose Us Section ======================= */
 .why-choose-us-section {
@@ -1263,6 +1356,7 @@ section {
     color: var(--text-light);
     border-color: var(--primary-color);
 }
+
 
 
 
