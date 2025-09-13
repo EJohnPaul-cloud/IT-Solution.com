@@ -1106,32 +1106,32 @@ section {
 /* Specific Hero Image Styles for Each Page */
 .about-hero {
     background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), 
-                      url('https://i.ibb.co/b5hzXmRj/IT-consultant-Lady.jpg');
+                      url('Trust2.png');
 }
 
 .services-hero {
     background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), 
-                      url('https://i.ibb.co/VphcLZ7D/Black-IT-manager.jpg');
+                      url('our service3.png');
 }
 
 .case-study-hero {
     background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), 
-                      url('https://via.placeholder.com/1920x800/40C1A7/FFFFFF?text=Case+Study+Hero+Image');
+                      url('case study2.png');
 }
 
 .blog-hero {
     background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), 
-                      url('https://via.placeholder.com/1920x800/4F6272/FFFFFF?text=Blog+Hero+Image');
+                      url('blog.png');
 }
 
 .blog-post-hero {
     background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), 
-                      url('https://via.placeholder.com/1920x800/29335C/FFFFFF?text=Blog+Post+Hero+Image');
+                      url('blog.png');
 }
 
 .pricing-hero {
     background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), 
-                      url('https://via.placeholder.com/1920x800/40C1A7/FFFFFF?text=Pricing+Hero+Image');
+                      url('price.png');
 }
 
 /* You can create more specific ones if you want, e.g.
@@ -1145,7 +1145,7 @@ section {
 /* ======================= BLOG Page CSS ======================= */
 .blog-hero {
     background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), 
-                url('https://i.ibb.co/gF6yhF7G/Customer-loyalty.jpg') no-repeat center center/cover;
+                url('blog.png') no-repeat center center/cover;
 }
 
 .blog-page-grid {
@@ -1195,7 +1195,7 @@ section {
 /* Single Post Specific CSS */
 .blog-post-hero {
     background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), 
-                url('https://via.placeholder.com/1920x800/29335C/FFFFFF?text=Blog+Post+Hero+Image') no-repeat center center/cover;
+                url('blog.png') no-repeat center center/cover;
 }
 
 .single-post-content {
@@ -1243,7 +1243,7 @@ section {
 /* ======================= PRICING Page CSS ======================= */
 .pricing-hero {
     background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), 
-                url('https://via.placeholder.com/1920x800/40C1A7/FFFFFF?text=Pricing+Hero+Image') no-repeat center center/cover;
+                url('price.png') no-repeat center center/cover;
 }
 
 .pricing-content-section {
@@ -1355,6 +1355,7 @@ section {
     color: var(--text-light);
     border-color: var(--primary-color);
 }
+
 
 
 
