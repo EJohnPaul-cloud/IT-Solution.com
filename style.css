@@ -198,7 +198,7 @@ section {
     position: relative;
     height: 700px;
     /* This line applies the dark overlay: */ 
-    background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('IT solution3.png') no-repeat center center/cover;
+    background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('https://i.ibb.co/whwhVfqc/IT-solution3.png') no-repeat center center/cover;
     background-size: cover; /* Ensure the image covers the area */
     background-position: center; /* Center the background image */
     display: flex;
@@ -1416,6 +1416,7 @@ section {
     padding-bottom: 20px;
     line-height: 1.6;
 }
+
 
 
 
