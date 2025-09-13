@@ -390,7 +390,6 @@ section {
     font-size: 2.5em;
     font-weight: bold;
     color: var(--primary-color);
-    opacity: 0.2;
 }
 
 .reason-content h3 {
@@ -1356,6 +1355,7 @@ section {
     color: var(--text-light);
     border-color: var(--primary-color);
 }
+
 
 
 
