@@ -198,7 +198,7 @@ section {
     position: relative;
     height: 700px;
     /* This line applies the dark overlay: */ 
-    background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('https://i.ibb.co/whwhVfqc/IT-solution3.png') no-repeat center center/cover;
+    background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('IT-solution4.png') no-repeat center center/cover;
     background-size: cover; /* Ensure the image covers the area */
     background-position: center; /* Center the background image */
     display: flex;
@@ -1106,32 +1106,32 @@ section {
 /* Specific Hero Image Styles for Each Page */
 .about-hero {
     background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), 
-                      url('https://i.ibb.co/Z1wX6Z9d/Trust2.png');
+                      url('Trust2.png');
 }
 
 .services-hero {
     background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), 
-                      url('https://i.ibb.co/8LNrspFc/our-service3.png');
+                      url('our service3.png');
 }
 
 .case-study-hero {
     background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), 
-                      url('https://i.ibb.co/F4H4BPtP/case-study2.png');
+                      url('case study2.png');
 }
 
 .blog-hero {
     background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), 
-                      url('https://i.ibb.co/4Zdb8WFW/blog.png');
+                      url('blog.png');
 }
 
 .blog-post-hero {
     background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), 
-                      url('https://i.ibb.co/4Zdb8WFW/blog.png');
+                      url('blog.png');
 }
 
 .pricing-hero {
     background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), 
-                      url('https://i.ibb.co/rKdGxQny/price.png');
+                      url('price.png');
 }
 
 /* You can create more specific ones if you want, e.g.
@@ -1195,7 +1195,7 @@ section {
 /* Single Post Specific CSS */
 .blog-post-hero {
     background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), 
-                url('https://i.ibb.co/4Zdb8WFW/blog.png') no-repeat center center/cover;
+                url('blog.png') no-repeat center center/cover;
 }
 
 .single-post-content {
@@ -1416,6 +1416,7 @@ section {
     padding-bottom: 20px;
     line-height: 1.6;
 }
+
 
 
 
