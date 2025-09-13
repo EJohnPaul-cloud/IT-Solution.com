@@ -95,3 +95,33 @@ document.addEventListener('DOMContentLoaded', () => {
     });
 
 });
+
+/* =================================
+    FAQ ACCORDION FUNCTIONALITY
+    ================================= */
+    const accordionItems = document.querySelectorAll('.accordion-item');
+
+    accordionItems.forEach(item => {
+        const header = item.querySelector('.accordion-header');
+        const content = item.querySelector('.accordion-content');
+
+        header.addEventListener('click', () => {
+            const isItemOpen = header.classList.contains('active');
+
+            // Close all other items
+            accordionItems.forEach(otherItem => {
+                const otherHeader = otherItem.querySelector('.accordion-header');
+                const otherContent = otherItem.querySelector('.accordion-content');
+                otherHeader.classList.remove('active');
+                otherContent.style.maxHeight = null;
+                otherContent.style.padding = '0 15px';
+            });
+
+            // If the clicked item was not open, open it
+            if (!isItemOpen) {
+                header.classList.add('active');
+                content.style.maxHeight = content.scrollHeight + 'px';
+                content.style.padding = '15px';
+            }
+        });
+    });
