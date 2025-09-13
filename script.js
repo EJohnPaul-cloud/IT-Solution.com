@@ -74,21 +74,7 @@ window.addEventListener('scroll', () => {
         });
     });
 
-    /* =================================
-    4. STICKY HEADER ON SCROLL
-    ================================= */
-    const mainHeader = document.querySelector('.main-header');
-    const stickyPoint = 50; // Distance to scroll before header becomes sticky
-
-    window.addEventListener('scroll', () => {
-        if (window.scrollY > stickyPoint) {
-            mainHeader.classList.add('sticky-header');
-        } else {
-            mainHeader.classList.remove('sticky-header');
-        }
-    });
-
-});
+    
 
 /* =================================
     FAQ ACCORDION FUNCTIONALITY
