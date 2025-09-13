@@ -52,28 +52,7 @@ window.addEventListener('scroll', () => {
 });
 
 
-    /* =================================
-    3. SMOOTH SCROLLING
-    ================================= */
-    const smoothScroll = (target) => {
-        document.querySelector(target).scrollIntoView({
-            behavior: 'smooth'
-        });
-    };
-
-    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
-        anchor.addEventListener('click', function (e) {
-            e.preventDefault();
-            const target = this.getAttribute('href');
-            if (document.querySelector(target)) {
-                smoothScroll(target);
-                // Close mobile menu after clicking a link
-                navLinks.classList.remove('nav-active');
-                hamburgerMenu.classList.remove('toggle');
-            }
-        });
-    });
-
+    
     
 
 /* =================================
