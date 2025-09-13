@@ -1111,7 +1111,7 @@ section {
 
 .services-hero {
     background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), 
-                      url('our service4.png');
+                      url('our service3.png');
 }
 
 .case-study-hero {
@@ -1412,6 +1412,7 @@ section {
     padding-bottom: 20px;
     line-height: 1.6;
 }
+
 
 
 
