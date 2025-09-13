@@ -1357,7 +1357,7 @@ section {
 }
 /* ======================= FAQ PAGE CSS ======================= */
 .faq-hero-page {
-    background: var(--bg-light);
+    background: var(--bg-dark);
 }
 
 .faq-section {
@@ -1414,6 +1414,7 @@ section {
     padding-bottom: 20px;
     line-height: 1.6;
 }
+
 
 
 
