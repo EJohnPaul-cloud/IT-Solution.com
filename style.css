@@ -1367,6 +1367,10 @@ section {
     margin: 0 auto;
 }
 
+.faq-hero-page .page-hero-content {
+    color: var(--secondary-color);
+}
+
 .accordion-item {
     border-bottom: 1px solid #ddd;
 }
@@ -1412,6 +1416,7 @@ section {
     padding-bottom: 20px;
     line-height: 1.6;
 }
+
 
 
 
