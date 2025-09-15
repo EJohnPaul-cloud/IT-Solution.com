@@ -293,6 +293,13 @@ section {
     flex-direction: row-reverse;
 }
 
+.services-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 30px; /* This adds perfect spacing between cards */
+}
+
+
 /* ======================= ABOUT Page Specific Styles ======================= */
 .about-hero-page {
     background: var(--bg-light);
