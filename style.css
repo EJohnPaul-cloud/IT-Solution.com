@@ -229,6 +229,21 @@ section {
     margin-left: 15px;
 }
 
+/* ======================= HOME HERO BUTTONS FIX ======================= */
+.hero-buttons {
+    display: flex;
+    align-items: center; /* This ensures vertical alignment */
+    justify-content: center; /* This centers the buttons on the page */
+    gap: 20px; /* This creates consistent spacing between the buttons */
+    margin-top: 20px;
+}
+
+@media (max-width: 768px) {
+    .hero-buttons {
+        flex-direction: column; /* Stacks the buttons on mobile */
+        gap: 15px;
+    }
+}
 
 /* ======================= SERVICES Page Specific Styles ======================= */
 .services-hero-page {
