@@ -208,7 +208,7 @@ section {
     position: relative;
     height: 700px;
     /* This line applies the dark overlay: */ 
-    background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('IT solution4.png') no-repeat center center/cover;
+    background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('IT solution4.webp') no-repeat center center/cover;
     background-size: cover; /* Ensure the image covers the area */
     background-position: center; /* Center the background image */
     display: flex;
@@ -1192,12 +1192,12 @@ section {
 /* Specific Hero Image Styles for Each Page */
 .about-hero {
     background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), 
-                      url('Trust2.png');
+                      url('Trust2.webp');
 }
 
 .services-hero {
     background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), 
-                      url('our service3.png');
+                      url('our service3.webp');
 }
 
 .case-study-hero {
@@ -1207,17 +1207,17 @@ section {
 
 .blog-hero {
     background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), 
-                      url('blog.png');
+                      url('blog.webp');
 }
 
 .blog-post-hero {
     background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), 
-                      url('blog.png');
+                      url('blog.webp');
 }
 
 .pricing-hero {
     background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), 
-                      url('price.png');
+                      url('price.webp');
 }
 
 /* You can create more specific ones if you want, e.g.
@@ -1502,6 +1502,7 @@ section {
     padding-bottom: 20px;
     line-height: 1.6;
 }
+
 
 
 
