@@ -193,6 +193,15 @@ section {
     display: none;
 }
 
+/* ======================= HEADER LINK FIXES ======================= */
+.top-bar a {
+    text-decoration: none;
+    color: inherit; /* This makes the link color the same as the parent */
+}
+
+.logo a {
+    text-decoration: none;
+}
 
 /* ======================= Hero Section ======================= */
 .hero-section {
@@ -1493,6 +1502,7 @@ section {
     padding-bottom: 20px;
     line-height: 1.6;
 }
+
 
 
 
