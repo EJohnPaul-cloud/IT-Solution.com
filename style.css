@@ -193,14 +193,6 @@ section {
     display: none;
 }
 
-.top-bar {
-    border-bottom: none;
-}
-
-.main-nav {
-    border-bottom: none;
-}
-
 
 /* ======================= Hero Section ======================= */
 .hero-section {
@@ -1501,6 +1493,7 @@ section {
     padding-bottom: 20px;
     line-height: 1.6;
 }
+
 
 
 
